@@ -1,85 +1,51 @@
 ```
-# Android build artifacts
-*.apk
-*.aar
-*.dex
-*.so
-
-# Gradle
+# Gradle wrapper
 .gradle/
+!gradlew
+!gradlew.bat
+
+# Dependencies
+lib/
+libs/
+
+# Build artifacts
 build/
-app/build/
+target/
+out/
 
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Log Files
+# Logs
 *.log
 
-# Android Studio Navigation editor temp files
-.navigation/
-
-# External native build folder generated in Android Studio 2.2 and later
-.externalNativeBuild
-
-# Compressed data
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
-
-# IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-*.tmp
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Environment files
+# Environment
 .env
 .env.local
 *.env.*
 
-# Coverage reports
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
 coverage/
 htmlcov/
 .coverage
 
-# Python cache
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 .Python
-.pytest_cache/
+*.so
 
-# Node.js
+# Node
 node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
 # Virtual environments
 venv/
@@ -87,24 +53,7 @@ venv/
 env/
 ENV/
 
-# MyPy cache
+# Testing
+*.pytest_cache/
 .mypy_cache/
-
-# Gradle cache
-.gradle/
-
-# Compiled binary files
-*.class
-*.o
-*.a
-*.obj
-*.out
-*.exe
-*.dll
-*.so
-*.dylib
-*.jar
-*.war
-*.ear
-
 ```
