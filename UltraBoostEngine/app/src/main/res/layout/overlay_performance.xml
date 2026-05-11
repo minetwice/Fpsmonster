@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/overlay_background"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/tvFpsLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FPS"
+        android:textColor="@color/text_secondary"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/tvFps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="60"
+        android:textColor="@color/neon_green"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/text_secondary"
+        android:layout_marginVertical="8dp" />
+
+    <TextView
+        android:id="@+id/tvTempLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEMP"
+        android:textColor="@color/text_secondary"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/tvTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="35°C"
+        android:textColor="@color/neon_blue"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/text_secondary"
+        android:layout_marginVertical="8dp" />
+
+    <TextView
+        android:id="@+id/tvRamLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RAM"
+        android:textColor="@color/text_secondary"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/tvRamUsage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="65%"
+        android:textColor="@color/neon_purple"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/text_secondary"
+        android:layout_marginVertical="8dp" />
+
+    <TextView
+        android:id="@+id/tvModeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MODE"
+        android:textColor="@color/text_secondary"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/tvMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gaming"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+</LinearLayout>

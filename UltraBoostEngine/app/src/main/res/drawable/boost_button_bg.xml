@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <shape android:shape="oval">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="100dp"
+                android:startColor="@color/boost_active"
+                android:endColor="@color/neon_purple" />
+            <stroke
+                android:width="4dp"
+                android:color="@color/neon_blue" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/boost_inactive" />
+            <stroke
+                android:width="2dp"
+                android:color="@color/text_secondary" />
+        </shape>
+    </item>
+</selector>
